@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="GeneHealingRateBase">
+        <defName>WoundHealing_VerySlow</defName>
+        <label>very slow wound healing</label>
+        <labelShortAdj>slow-heal</labelShortAdj>
+        <description>Carriers of this gene heal from wounds a quarter as fast as normal.</description>
+        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
+        <displayOrderInCategory>29</displayOrderInCategory>
+        <statFactors>
+            <InjuryHealingFactor>0.25</InjuryHealingFactor>
+        </statFactors>
+        <biostatMet>3</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>soft</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneHealingRateBase">
+        <defName>WoundHealing_SlightlySlow</defName>
+        <label>below average wound healing</label>
+        <labelShortAdj>slow-heal</labelShortAdj>
+        <description>Carriers of this gene heal from wounds three quarters as fast as normal.</description>
+        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
+        <displayOrderInCategory>31</displayOrderInCategory>
+        <statFactors>
+            <InjuryHealingFactor>0.75</InjuryHealingFactor>
+        </statFactors>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>soft</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneHealingRateBase">
+        <defName>WoundHealing_SlightlyFast</defName>
+        <label>above average wound healing</label>
+        <labelShortAdj>fast-heal</labelShortAdj>
+        <description>Carriers of this gene heal from wounds 1.5 times as fast as normal.</description>
+        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateFast</iconPath>
+        <displayOrderInCategory>39</displayOrderInCategory>
+        <statFactors>
+            <InjuryHealingFactor>1.5</InjuryHealingFactor>
+        </statFactors>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stout</symbol></li>
+                <li><symbol>hard</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneHealingRateBase">
+        <defName>WoundHealing_ExtremeFast</defName>
+        <label>extremely fast wound healing</label>
+        <labelShortAdj>super-heal</labelShortAdj>
+        <description>Carriers of this gene heal from wounds six times as fast as normal.</description>
+        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSuperfast</iconPath>
+        <displayOrderInCategory>55</displayOrderInCategory>
+        <marketValueFactor>1.5</marketValueFactor>
+        <statFactors>
+            <InjuryHealingFactor>6</InjuryHealingFactor>
+        </statFactors>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-4</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>stout</symbol></li>
+                <li><symbol>hard</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
