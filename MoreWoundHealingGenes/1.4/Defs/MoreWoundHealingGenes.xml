@@ -5,7 +5,7 @@
         <label>very slow wound healing</label>
         <labelShortAdj>slow-heal</labelShortAdj>
         <description>Carriers of this gene heal from wounds a quarter as fast as normal.</description>
-        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
+        <iconPath>MBSG/Gene_VerySlowHealing</iconPath>
         <displayOrderInCategory>29</displayOrderInCategory>
         <statFactors>
             <InjuryHealingFactor>0.25</InjuryHealingFactor>
@@ -23,7 +23,7 @@
         <label>below average wound healing</label>
         <labelShortAdj>slow-heal</labelShortAdj>
         <description>Carriers of this gene heal from wounds three quarters as fast as normal.</description>
-        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
+        <iconPath>MBSG/Gene_SlightlySlowHealing</iconPath>
         <displayOrderInCategory>31</displayOrderInCategory>
         <statFactors>
             <InjuryHealingFactor>0.75</InjuryHealingFactor>
@@ -41,7 +41,7 @@
         <label>above average wound healing</label>
         <labelShortAdj>fast-heal</labelShortAdj>
         <description>Carriers of this gene heal from wounds 1.5 times as fast as normal.</description>
-        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateFast</iconPath>
+        <iconPath>MBSG/Gene_SlightlyFastHealing</iconPath>
         <displayOrderInCategory>39</displayOrderInCategory>
         <statFactors>
             <InjuryHealingFactor>1.5</InjuryHealingFactor>
@@ -60,7 +60,7 @@
         <label>extremely fast wound healing</label>
         <labelShortAdj>super-heal</labelShortAdj>
         <description>Carriers of this gene heal from wounds six times as fast as normal.</description>
-        <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSuperfast</iconPath>
+        <iconPath>MBSG/Gene_ExtremelyFastHealing</iconPath>
         <displayOrderInCategory>55</displayOrderInCategory>
         <marketValueFactor>1.5</marketValueFactor>
         <statFactors>
