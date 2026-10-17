@@ -7,6 +7,7 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   
   <modDependencies>
@@ -39,4 +40,3 @@ Above average wound healing - -1 bio, 150% injury healing rate
 Extreme wound healing - 2 Complexity, -4 bio, 600% injury healing rate
   </description>
 </ModMetaData>
-
